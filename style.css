@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width:30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width:49%;
+    margin:0 10px;
+}
+input.themgiohang{
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header{
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border: 1px solid #ff80ff;
+    height: 180px;
+    width: 100%;
+}
+.menu{
+    border: 1px solid #1aff8c;
+    height: 50px;
+    width: 100%;
+    background: #00e6ac;
+}
+
+ul.list_menu{
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+}
+ul.list_menu li:hover{
+    background-color: burlywood;
+}
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+}
+ul.list_menu li{
+    float:left;
+    margin: 7px;
+    padding: 5px;
+}
+ul.baiviet{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.baiviet li{
+   text-align: center;
+   /* padding: 10px;
+    border: 1px solid #ddd; */
+}
+.main{
+    border: 1px solid #00ff80;
+    height: auto;
+    width: 100%;
+    
+}
+ul.list_sidebar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    line-height: 27px;
+}
+ul.list_sidebar li:hover{
+    background-color:cadetblue;
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff;
+    display: block;
+}
+ul.list_sidebar li{
+    margin: 7px;
+    padding: 5px;
+}
+.sidebar{
+    border: 2px solid #000066;
+    height: auto;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+.Maincontent{
+  
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+.product_list img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+ul.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li{
+    width: 18.5%;
+    border: 1px dashed #000;
+    margin: 5px;
+    float: left;
+    background: aquamarine;
+}ul.product_list li a{
+    text-decoration: none;
+}
+ul.product_list li img{
+    width: 100%;
+}
+p.price_product{
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.title_product{
+    text-align: center;
+    /* height: 150px; */
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.clear{
+    clear: both;
+}
+.footer{
+    border: 1px solid #ff1a8c;
+    height: 150px;
+    width: 100%;
+    background: #00cc99;
+}
+p.footer_copyright{
+    text-align: center;
+    color: #000;
+}
+/* Tabs */
+.tabs {
+    width: 850px;
+    background-color: #09F;
+    border-radius: 10px 10px 10px 10px;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+    overflow: auto;
+  }
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 15px 15px;
+    border-radius: 8px 8px 8px 8px;
+    /* border: 1px solid #d5d5de;
+    border-bottom: none; */
+    cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: #08E;
+  }
+  #tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .tab-content {
+    padding: 10px;
+    border: 5px solid #09F;
+    background-color: #FFF;
+  }
+  /* phan gio hang*/
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+  }
+  
+  /* Responsive Arrow Progress Bar */
+  
+  .progress-bar-container {
+    font-family: sans-serif;
+  }
+  
+  .progress-bar-container .arrow-steps .step {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    cursor: default;
+    margin: 0 3px 0 0;
+    padding: 10px 0px 10px 0px;
+    width: 19.65%;
+    float: left;
+    position: relative;
+    background-color: #ddd;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .progress-bar-container .arrow-steps .step a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .progress-bar-container .arrow-steps .step:after,
+  .progress-bar-container .arrow-steps .step:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 17px solid #ddd;
+    z-index: 2;
+  }
+  
+  .progress-bar-container .arrow-steps .step:before {
+    right: auto;
+    left: 0;
+    border-left: 17px solid #fff;
+    z-index: 0;
+  }
+  
+  .progress-bar-container .arrow-steps .step:first-child:before {
+    border: none;
+  }
+  
+  .progress-bar-container .arrow-steps .step:last-child:after {
+    border: none;
+  }
+  
+  .progress-bar-container .arrow-steps .step:first-child {
+  
+  }
+  
+  .progress-bar-container .arrow-steps .step:last-child {
+  
+  }
+  
+  .progress-bar-container .arrow-steps .step span {
+    position: relative;
+  }
+  
+  .progress-bar-container *.arrow-steps .step.done span:before {
+    opacity: 1;
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -10px;
+    font-size: 11px;
+    line-height: 21px;
+  }
+  
+  .progress-bar-container .arrow-steps .step.current {
+    color: #313131;
+    background-color: #4a4a4a;
+    font-weight: 500;
+  }
+  
+  .progress-bar-container .arrow-steps .step.current a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .progress-bar-container .arrow-steps .step.current:after {
+    border-left: 17px solid #4a4a4a;
+  }
+  
+  .progress-bar-container .arrow-steps .step.done {
+    color: #173352;
+    background-color: #afafaf;
+  }
+  
+  .progress-bar-container .arrow-steps .step.done a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .progress-bar-container .arrow-steps .step.done:after {
+    border-left: 17px solid #afafaf;
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "name": "myname/wed-mysql",
+    "autoload": {
+        "psr-4": {
+            "Myname\\WedMysql\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "duongaaa101104",
+            "email": "estella113pro@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^3.9"
+    }
+}
