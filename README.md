@@ -18,9 +18,9 @@ Dự án này triển khai giải pháp **Web Application Firewall (WAF)** sử 
 ### 📅 Phân chia công việc
 | Thành viên | Nhiệm vụ chính |
 |:---|:---|
-| **Nguyễn Xuân Dương** | - Nghiên cứu tổng quan về ModSecurity, Nginx.<br>- Dựng Server Ubuntu (WAF) và cấu hình Reverse Proxy.<br>- Cài đặt và tích hợp bộ luật OWASP CRS.<br>- Tổng hợp báo cáo và Slide thuyết trình. |
-| **Đồng Viết Minh** | - Xây dựng Website bán hàng Demo (PHP thuần + MySQL).<br>- Thiết kế cơ sở dữ liệu (`tbl_dangky`, `tbl_sanpham`).<br>- Lập trình các đoạn mã lỗi (Vulnerable Code) cho chức năng Đăng nhập và Tìm kiếm. |
-| **Hồ Đức Thắng** | - Nghiên cứu lý thuyết tấn công SQL Injection và XSS.<br>- Thực hiện kiểm thử tấn công (Red Team): Tìm và khai thác lỗ hổng.<br>- Kiểm tra log hệ thống và chụp ảnh minh chứng kết quả.<br>- Soạn thảo nội dung báo cáo chương Kết quả. |
+| **Nguyễn Xuân Dương** | - Nghiên cứu tổng quan về ModSecurity, Nginx.<br>- Dựng Server Ubuntu (WAF) và cấu hình Reverse Proxy.<br>- Cài đặt và tích hợp bộ luật OWASP CRS.<br>- Tổng hợp báo cáo . |
+| **Đồng Viết Minh** | - Nghiên cứu lý thuyết tấn công SQL Injection và XSS.<br>- Thực hiện kiểm thử tấn công (Red Team): Tìm và khai thác lỗ hổng.<br>- Kiểm tra log hệ thống và chụp ảnh minh chứng kết quả.<br>- Soạn thảo nội dung báo cáo chương Kết quả. |
+| **Hồ Đức Thắng** |- Xây dựng Website bán hàng Demo (PHP thuần + MySQL).<br>- Thiết kế cơ sở dữ liệu (`tbl_dangky`, `tbl_sanpham`).<br>- Lập trình các đoạn mã lỗi (Vulnerable Code) cho chức năng Đăng nhập và Tìm kiếm. | 
 
 ---
 
