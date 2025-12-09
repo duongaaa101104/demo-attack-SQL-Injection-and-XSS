@@ -81,7 +81,7 @@ Hệ thống hoạt động theo mô hình **Reverse Proxy**:
 *Hacker cố gắng đăng nhập trái phép bằng `' OR 1=1`.*
 
 **❌ Khi chưa bật WAF (Bị Hack):**
-![SQLi Login Success](./imgdemo/sqli_login_success.png)
+![SQLi Login Success](./imgdemo/qli_login_success.png)
 *(Hệ thống thông báo đăng nhập thành công hoặc lộ giao diện Admin)*
 
 **✅ Khi bật WAF (Đã chặn):**
